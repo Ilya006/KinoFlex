@@ -17,4 +17,6 @@ const routes = createRoutesFromElements(
   <Route path="/" element={<HomePage />} />
 )
 
+console.log('hello Messages')
+
 const router = createBrowserRouter(routes)

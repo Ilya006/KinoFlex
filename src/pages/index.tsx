@@ -13,10 +13,10 @@ export const Routing = () => {
   return <RouterProvider router={router} />
 }
 
+console.log('Hello 2')
+
 const routes = createRoutesFromElements(
   <Route path="/" element={<HomePage />} />
 )
-
-console.log('hello Messages')
 
 const router = createBrowserRouter(routes)
